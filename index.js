@@ -9,7 +9,7 @@ const cors = require("cors");
 dotenv.config();
 const app = express();
 
-app.use(cors(), Logger, express.json(), express.urlencoded({ extended: true }));
+app.use(cors(), logger, express.json(), express.urlencoded({ extended: true }));
 // app.use(cors());
 // app.use(Logger);
 // app.use(express.json());
